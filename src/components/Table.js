@@ -14,7 +14,7 @@ const Table1 = ({ url, users, setUsers, setUrl, loading }) => {
       </div>
     );
   return (
-    <div className="d-flex justify-content-center align-items-center my-5">
+    <div className=" d-flex justify-content-center align-items-center my-5  mx-3 bg-dark">
       <Table
         key={"index"}
         data={users}
