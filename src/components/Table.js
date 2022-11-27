@@ -14,11 +14,11 @@ const Table1 = ({ url, users, setUsers, setUrl, loading }) => {
       </div>
     );
   return (
-    <div className=" d-flex justify-content-center align-items-center my-5  mx-3 bg-dark">
+    <div className=" d-flex justify-content-center align-items-center my-5  mx-3 ">
       <Table
         key={"index"}
         data={users}
-        width={600}
+        width={460}
         height={550}
         // expandColumnKey={"name"}
         // estimatedRowHeight={40}
@@ -50,13 +50,13 @@ const Table1 = ({ url, users, setUsers, setUrl, loading }) => {
         />
 
         <Column key="ip" dataKey="ip" title="ip" width={100} sortable />
-        <Column
+        {/* <Column
           key="image"
           dataKey="image"
           title="Imagen"
           width={100}
           sortable
-        />
+        /> */}
         {/* <Column key="children" dataKey="children" title="ROE 1 yr Fwd" width={100} sortable /> */}
       </Table>
     </div>
