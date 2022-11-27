@@ -23,6 +23,7 @@ const Table1 = ({ url, users, setUsers, setUrl, loading }) => {
         // expandColumnKey={"name"}
         // estimatedRowHeight={40}
         // rowRenderer={rowRenderer}
+        style={{ overflow: "scroll" }}
       >
         <Column
           key="firstName"
